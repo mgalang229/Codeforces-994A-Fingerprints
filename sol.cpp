@@ -22,8 +22,7 @@ int main() {
 		cin >> y[i];
 	for(int i=0; i<n; ++i)
 		for(int j=0; j<m; ++j)
-			if(x[i]==y[j]) {
+			if(x[i]==y[j])
 				cout << x[i] << " ";
-			}
 	cout << "\n";
 }
